@@ -1,0 +1,58 @@
+(dp0
+S'Member'
+p1
+(dp2
+S'ColumSection'
+p3
+S'SC 250'
+p4
+sS'fu (MPa)'
+p5
+V410
+p6
+sS'BeamSection'
+p7
+S'MB 300'
+p8
+sS'fy (MPa)'
+p9
+V250
+p10
+sS'Connectivity'
+p11
+S'Column flange-Beam web'
+p12
+ssS'Load'
+p13
+(dp14
+S'ShearForce (kN)'
+p15
+V80
+p16
+ssS'cleat'
+p17
+(dp18
+S'section'
+p19
+S'120 120 X 12'
+p20
+sS'Height (mm)'
+p21
+S''
+p22
+ssS'Bolt'
+p23
+(dp24
+S'Grade'
+p25
+V8.8
+p26
+sS'Diameter (mm)'
+p27
+S'16'
+p28
+sS'Type'
+p29
+S'Bearing Bolt'
+p30
+ss.

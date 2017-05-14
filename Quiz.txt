@@ -1,0 +1,82 @@
+Onboarding-Quiz
+---------------------------------------------------------------------------------------------------------
+Instructions:
+
+Initial setup:
+	a) Install python 2.7 on your machine
+	b) Setup Git on your machine and also create an account on github, if you do not have one
+	c) It is recommended (though not required) that you install an IDE that you are comfortable with on your machine. Eclipse and PyCharm are popular IDEs. You could also choose to use Emacs, Vim or Notepad++.
+
+Tasks:
+	It is mandatory to complete task 1. 
+	You have the choice of attempting any two of the remaining tasks 2-5. 
+	Each task will help you build a basic grip over an essential skill in coding.
+
+Guidelines:
+	The test duration is 90 minutes.
+	You are allowed to use any book or the Internet. You can use the Internet as a resource (including PAST questions on forums) to complete the test, but you are not allowed to collaborate with any individual during the test. 
+	You have the choice of using C++, Java or Python to complete some tasks. This is indicated in the task description. Some tasks may require you to use a specific language.
+
+---------------------------------------------------------------------------------------------------------
+1) Use of Version Control:	
+	a) Create your account on github.com
+	b) Fork the repository (https://github.com/jayantpatil289/onboarding_quiz.git) to your github account
+	c) clone the forked repository to your local machine (/laptop)
+	d) On your local machine, set-up an additional remote to the upstream repository (https://github.com/jayantpatil289/onboarding_quiz.git) as 'upstream'
+	e) Make sure you are on the master branch
+	f) create a file your_name.txt which contains your_email_address
+	h) add this file to git
+	h) commit this file with an appropriate commit message
+	i) push this branch (master) from your local machine to your github repository
+	j) Create a pull request on the upstream repository on github
+
+---------------------------------------------------------------------------------------------------------
+2) Ability to Reuse Code:
+The design report for the seated angle connection module is created using the python code in report_generator.py  Study the code and reuse functions in the code to add a new table "Design Preferences" to the report. The design_preferences_sample.PNG image has a similar table for the fin-plate connection module. 
+	The table for the seated angle connection module should contain the following parameters:
+		Bolt
+			Hole Type
+			Hole Clearance
+			Material Grade (MPa)
+			Slip Factor
+		Detailing
+			Type of Edge
+			Minimum Edge-End Distance
+			Gap (mm)
+		Design
+			Design Method
+
+---------------------------------------------------------------------------------------------------------
+3) Ability to script tasks:
+# Note: You may use Python, Ubuntu-bash script, Windows-batch files, Windows-Powershell, or any other language you are comfortable with, to complete this task.
+
+	You are given a directory (blair-l) which contains some of blair-l's emails. 
+	This directory is very small subset of the famous (and publicly available) Enron-mail dataset (sometimes used in machine learning courses, in text-learning). 
+	The task is to rename the files (which represent individual emails) in the sub-directories as folder_name+"_"+file_name instead of the current file_name. 
+	And then transfer all the files from the sub-directories into a (new) parent directory (BLAIR_L).
+
+For example: if the file_name is "3_" and the file is in the "_sent_mail" folder, the new file_name should be "_sent_mail_3_"
+			
+---------------------------------------------------------------------------------------------------------
+4) File-handling: 
+# Note: You may use either C++, Java, or Python to complete this task.
+
+	The design parameters for a connection design module are read from the "saveINPUT.txt" file. 
+	You have been provided connection_design_inputs.csv which contains the design parameters for 15 connections.
+	You are required to create the corresponding 15 saveINPUT.txt files. 
+	The individual file for each connection ID must be named as i+"saveINPUT.txt", where i is the connection ID. The saveINPUT.txt file for connection ID 1 (1saveINPUT.txt) has been created for your study.
+
+# Note: Whether the connection design with the given parameters is safe or not, is not a concern, at this stage. 
+
+---------------------------------------------------------------------------------------------------------
+5) Objective quiz on object oriented programming and programming fundamentals:
+
+# Note: You are not allowed to use the Internet or any other resource while attempting this (offline) quiz.
+
+---------------------------------------------------------------------------------------------------------
+End of Quiz
+---------------------------------------------------------------------------------------------------------
+
+Onboarding-Quiz too easy?! Enjoy some coding comic-strips!
+	checkout the "quiz_not_done_but_this_looks_interesting" branch in your osdag_onboarding repository.
+---------------------------------------------------------------------------------------------------------
